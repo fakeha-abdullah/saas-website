@@ -13,25 +13,44 @@
 </head>
 <body>
   <div>
-  <header>
-    <a class="logo" href="#"></a>
-  </header>
-  <div class="topnav" id="myTopnav">
-      <a href="sign-up.html">Sign Up</a>
-      <a href="pricing.html">Pricing</a>
-      <a href="tour.html">Features</a>
-      <a class="active" href="home">Home</a>
-  </div>
-
+    <header class="grid w-1 width-full island">
+      <div class="logo unit xs-1-4 s-1-4 text-left">
+        <a class="icon-link" href="index.html">
+          <i class="icon-48">
+            <img src="images/logo2.svg" alt="logo">
+          </i>
+        </a>
+      </div>
+      <nav class="unit xs-3-4 s-3-4 m-3-4 l-3-4 text-right large">
+        <ul class="topnav list-group-inline">
+          <li class="text-right gutter-quarter">
+            <a class="active" href="index.html">Home</a>
+          </li>
+          <li class="text-right gutter-quarter">
+            <a class="link" href="tour.html">Features</a>
+          </li>
+          <li class="text-right gutter-quarter">
+            <a class="link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="text-right gutter-quarter">
+              <a class="link" href="sign-up.html">Sign up</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 <main>
-  <article>
-    <h1 class="push-2" id="features">TRY IT FIRST, PICK YOUR PLAN LATER.</h1>
+    <h1 class="push-2">TRY IT FIRST, PICK YOUR PLAN LATER.</h1>
     <p class="push-0">Sign up for FREE for one year, then enjoy a wide range of plan offers.</p>
-    <div>
-      <button class="btn" type="submit">CHECK OFFERS</button>
-    </div>
+    <div class="text-center pad-top-double">
+    <a class="btn gutter-double" href="pricing.html">
+    <p class="push-0">Check Offers</p>
+    </a>
+  </div>
  <h2 class="italic" style="text-align:center">Flexible plans for everyone</h2>
  <div class="columns">
+   <table>
+     <thead>
+   <td>
    <ul class="price">
      <li class="header mega bold">Trail</li>
      <li class="yellow kilo">$0 FOR ONE YEAR</li>
@@ -42,6 +61,8 @@
      <li>Typefaces</li>
      <li><a href="sign-up.html" class="button">Sign Up</a></li>
    </ul>
+ </td>
+ </thead>
  </div>
 
  <div class="columns">
@@ -80,6 +101,7 @@
    </ul>
  </div>
  </article>
+ </table>
  </main>
  </body>
  </html>
