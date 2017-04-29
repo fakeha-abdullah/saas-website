@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5em;
   font-size: 14px;
   color: #333;
@@ -26,6 +26,18 @@ html {
 body {
   margin: 0;
   padding: 0;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .island {
+    padding: 1.4rem;
+  }
 }
 
 .topnav {
@@ -53,7 +65,7 @@ body {
   color: #fdc56b;
 }
 
-h1,h2,h3,p {
+h1, h2, h3, p {
   text-align: center;
 }
 
@@ -85,7 +97,7 @@ hr {
 }
 
 .price:hover {
-  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, .2);
 }
 
 .price .header {
@@ -100,7 +112,7 @@ hr {
 }
 
 .button {
-  background-color: #FDC56B;
+  background-color: #fdc56b;
   border: none;
   color: white;
   padding: 14px 16px;
@@ -108,7 +120,33 @@ hr {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) {
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  max-height: 24em;
+  overflow: hidden;
+}
+
+.banner-content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #333;
+  width: 100%;
+}
+
+.card {
+  background-color: #fff;
+  border: 2px solid #8eb9ae;
+  border-radius: 8px;
+}
+
+@media only screen and (min-width: 600px) {
+
   .columns {
     width: 100%;
   }
